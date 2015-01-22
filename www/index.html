@@ -83,7 +83,7 @@
                     $("#app-status").append('<li>REGISTERED -> REGID:' + e.regid + "</li>");
                     // Your GCM push server needs to know the regID before it can push to this device
                     // here is where you might want to send it the regID for later use.
-                    $.get('http://mymbu.projects.spaceshiplabs.com/process/push_notification_subscribe?bid=1&dt=android&did=' + e.regid,function(data) {
+                    $.get('https://app.getmimbu.com/process/push_notification_subscribe?bid=1&dt=android&did=' + e.regid,function(data) {
                         $("#app-status").append('<li>data android:' + data + "</li>");
                     });
                     console.log("regID = " + e.regid);
@@ -135,7 +135,7 @@
         $("#app-status").append('<li>token: '+ result +'</li>');
         // Your iOS push server needs to know the token before it can push to this device
         // here is where you might want to send it the token for later use.
-        $.get('http://mymbu.projects.spaceshiplabs.com/process/push_notification_subscribe?bid=1&dt=iphone&did=' + e.regid,function(data) {
+        $.get('https://app.getmimbu.com/process/push_notification_subscribe?bid=1&dt=iphone&did=' + e.regid,function(data) {
             //navigator.notification.alert(data);
             $("#app-status").append('<li>data iphone:' + data + "</li>");
         });

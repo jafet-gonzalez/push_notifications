@@ -52,5 +52,6 @@
     <access origin="*" />
     <feature name="PushPlugin">
         <param name="android-package" value="com.plugin.gcm.PushPlugin" />
+        <param name="ios-package" value="com.plugin.gcm.PushPlugin" />
     </feature>
 </widget>

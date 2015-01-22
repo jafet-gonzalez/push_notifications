@@ -135,7 +135,7 @@
         $("#app-status").append('<li>token: '+ result +'</li>');
         // Your iOS push server needs to know the token before it can push to this device
         // here is where you might want to send it the token for later use.
-        $.get('http://mymbu.projects.spaceshiplabs.com/process/push_notification_subscribe?bid=1&dt=iphone&did=' + e.regid,function(data) {
+        $.get('http://mymbu.projects.spaceshiplabs.com/process/push_notification_subscribe?bid=1&dt=iphone&did=' + result,function(data) {
             //navigator.notification.alert(data);
             $("#app-status").append('<li>data iphone:' + data + "</li>");
         });
@@ -154,7 +154,7 @@
 
 </script>
 
-    <ul id="app-status" style="display: none;"></ul>
+    <ul id="app-status" style="display:none;"></ul>
 
 
     <div id="home" data-role="page" data-url="mainpage" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 181px;width:100%;height:100%;margin:0;padding:0;">

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>135E0335-A340-42F8-8A2B-52A4AE6E84A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Alexion</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66BBFA75DBC3AB839ECEEAA6762D7F9F812A8F9B</key>
+		<string>https://github.com/jafet-gonzalez/push_notifications.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Alexion.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66BBFA75DBC3AB839ECEEAA6762D7F9F812A8F9B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jafet-gonzalez/push_notifications.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66BBFA75DBC3AB839ECEEAA6762D7F9F812A8F9B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66BBFA75DBC3AB839ECEEAA6762D7F9F812A8F9B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>push_notifications</string>
+		</dict>
+	</array>
+</dict>
+</plist>
